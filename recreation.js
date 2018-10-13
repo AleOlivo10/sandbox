@@ -18,7 +18,6 @@ var obvious = {
     two: 2,
     three: 3,
 };
-}
 
 //objects can contain words (strings) or integers. Take note that colons are used, not '=' for objects
 
