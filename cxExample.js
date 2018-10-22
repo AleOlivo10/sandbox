@@ -12,13 +12,14 @@ var menuItems = {
 
 var yes = readline.question("Would you like to see what's on today's menu? ");
 
+console.log(yes + "? Great, here you go, " + name + "!");
+
+
 var menuArray = ["eclair", "donut", "brownie", "cupcake", "cookie"];
 for (let key in menuItems) {
     console.log(key, menuItems[key]);
 
-
 };
-console.log(yes + "? Great, here you go, " + name + "!");
 
-var dessertChoice = readline.question ("What would you like to have?" );
-console.log("Great choice, " + name + ", that's one of my favorites." dollars*Currency[money] + " " + money);
+var dessertChoice = readline.question ("What would you like to have? ");
+console.log("Great choice, " + name + ", that's one of my favorites. Your change is " + 10-Object.keys);

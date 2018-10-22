@@ -2,6 +2,26 @@ var readline = require('readline-sync');
 var name = readline.question("Welcome to my humble, little Dessert Shop! What is your name? ");
 console.log("I see you have $10, " + name + " would you like to see what's on the menu today?);
 
+
+
+
+//var menuArray = ["eclair", "donut", "brownie", "cupcake", "cookie"];
+//for (let key in menuItems) {
+   // console.log(key, menuItems[key]);
+
+
+//};
+
+
+
+
+
+
+
+
+
+
+
 /*var readline = require('readline-sync');
 var dessert = readline.question("You have $5, enough for one pastry! What would you like? ");
 var pastryChoices = {
