@@ -22,4 +22,6 @@ for (let key in menuItems) {
 };
 
 var dessertChoice = readline.question ("What would you like to have? ");
-console.log("Great choice, " + name + ", that's one of my favorites. Your change is " + 10-Object.keys);
+console.log("Great choice, " + name + ", that's one of my favorites.");
+
+var money = readline.question ("") 
