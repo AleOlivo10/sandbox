@@ -1,0 +1,75 @@
+GIT NOTES
+  334  cd jsdom/
+  335  touch app.js
+  336  c9 app.js 
+  337  git add app.js 
+  338  git commit -m "following the lesson here"
+  339  git push -u
+  340  git add .
+  341  git commit -m "first commit"
+  342  git push -u
+  343  git add app.js 
+  344  ls
+  345  cd javascript_sandbox/
+  346  cd jsdom/
+  347  git branch -a
+  348  cd ..
+  349  clear
+  350  rm -rf jsdom/
+  351  mkdir jsdom
+  352  cd jsdom/
+  353  git init
+  354  curl -LO https://github.com/iamshaunjp/JavaScript-DOM-Tutorial/archive/master.zip
+  355  ls
+  356  unzip -j master.zip 
+  357  ls
+  358  rm master.zip 
+  359  git status
+  360  git add -A
+  361  git status
+  362  git commit -m "first commit"
+  363  git checkout -b version1.0
+  364  curl -LO https://github.com/iamshaunjp/JavaScript-DOM-Tutorial/archive/lesson-1.zip
+  365  unzip -j lesson-1.zip 
+  366  git status
+  367  rm lesson-1.zip  a
+  368  git add -A
+  369  git status
+  370  git commit -m "added index.html and styles.css"
+  371  git status
+  372  git log
+  373  ls
+  374  c9 index.html 
+  375  c9 styles.css 
+  376  git status
+  377  git checkout --styles.css
+  378  git status
+  379  git checkout -b version2.0
+  380  history > git notes.txt
+  381  cat history > git notes.txt
+  382  cat history > gitnotes.txt
+  383  history > gitnotes.txt
+
+git checkout -b nameofbranch
+curl -LO link from shaun's repo
+unzip -j lesson.zip (whichever is relevant)
+rm lesson.zip (now unzipped)
+ls (see what you have)
+git add -A
+git commit -m "message"
+git push 
+
+****github doesnt recognize commits done at the branch level****
+
+git checkout master
+git merge versionbeingpushed
+git push
+
+****to get into another branch****
+
+git checkout nameofbranch (no need for -b)
+
+TRY CODEPEN.COM
+wanna see all your branches? git branch
+
+oiwlejfaILEF
